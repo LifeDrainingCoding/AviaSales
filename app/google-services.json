@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452797435111",
+    "project_id": "aviasales-81309",
+    "storage_bucket": "aviasales-81309.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452797435111:android:95bb05ffac5574bc7ce642",
+        "android_client_info": {
+          "package_name": "com.pracktic.aviasales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnkh5iAgsmkcTWCj_yX1TJTVCthXQQEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

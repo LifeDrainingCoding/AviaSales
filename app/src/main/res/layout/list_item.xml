@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/list_border"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  android:orientation="vertical"
+                  android:id="@+id/layout_linear"
+                  >
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/text_view_border"
+                  android:text="Номер рейса: "
+                  android:layout_marginTop="3dp"
+                  android:layout_marginStart="3dp"
+                  android:layout_marginEnd="3dp"
+                  android:layout_marginBottom="3dp"
+                  style="@style/TextView.textStyle"
+                  android:id="@+id/line_name_txt"
+                  android:textAlignment="center"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/text_view_border"
+                  android:text="Экипаж: "
+                  android:layout_marginTop="3dp"
+                  android:layout_marginStart="3dp"
+                  android:layout_marginEnd="3dp"
+                  android:layout_marginBottom="3dp"
+                  style="@style/TextView.textStyle"
+                  android:id="@+id/crews_txt"
+
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/text_view_border"
+                  android:text="Тип самолета: "
+                  android:layout_marginTop="3dp"
+                  android:layout_marginStart="3dp"
+                  android:layout_marginEnd="3dp"
+                  android:layout_marginBottom="3dp"
+                  style="@style/TextView.textStyle"
+                  android:id="@+id/airplane_type_txt"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/text_view_border"
+                  android:text="Дата вылета: "
+                  android:layout_marginTop="3dp"
+                  android:layout_marginStart="3dp"
+                  android:layout_marginEnd="3dp"
+                  android:layout_marginBottom="3dp"
+                  style="@style/TextView.textStyle"
+                  android:id="@+id/start_date_txt"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/text_view_border"
+                  android:text="Доступные места: "
+                  android:layout_marginTop="3dp"
+                  android:layout_marginStart="3dp"
+                  android:layout_marginEnd="3dp"
+                  android:layout_marginBottom="3dp"
+                  style="@style/TextView.textStyle"
+                  android:id="@+id/available_seats_txt"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@drawable/text_view_border"
+                  android:text="Цены на места: "
+                  android:layout_marginTop="3dp"
+                  android:layout_marginStart="3dp"
+                  android:layout_marginEnd="3dp"
+                  android:layout_marginBottom="3dp"
+                  style="@style/TextView.textStyle"
+                  android:id="@+id/seats_price_txt"/>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
